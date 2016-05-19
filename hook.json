@@ -1,0 +1,11 @@
+{
+    "eventName": "door",
+    "url": "https://door.jegtnes.co.uk",
+    "requestType": "POST",
+    "headers": {
+      "name": "{{SPARK_EVENT_NAME}}",
+      "value": "{{SPARK_EVENT_VALUE}}",
+      "time": "{{SPARK_PUBLISHED_AT}}"
+    },
+    "mydevices": true
+}
